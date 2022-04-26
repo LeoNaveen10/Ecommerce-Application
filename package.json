@@ -4,7 +4,7 @@
   "description": "Backend code for ecommerce",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Naveen Sundar",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "body-parser": "^1.19.2",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
+    "jest": "^28.0.0",
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.16.1"
