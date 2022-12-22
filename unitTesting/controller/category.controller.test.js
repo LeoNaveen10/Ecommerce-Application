@@ -1,6 +1,5 @@
 const { mockRequest, mockResponse } = require("../interceptor");
 const newCategory = require("../mockData/newCategory.json");
-const Category = require("../../../models").category;
 const categoryController = require("../../../controllers/category.controller");
 
 
